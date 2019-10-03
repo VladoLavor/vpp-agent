@@ -67,9 +67,7 @@ clean-examples-plugin:
 
 # Get test tools
 get-testtools:
-	@echo "=> installing test tools"
-	./scripts/install-consul.sh
-	consul version
+	go get github.com/hashicorp/consul
 
 # Run tests
 test: get-testtools

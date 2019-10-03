@@ -514,7 +514,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:8248e3b2ba1bf3862bd01a38e58b6c448475f7d1ee62be14cb68a43881f9f28f"
+  digest = "1:3aa6d22f84c3f331446b0884cc55cbf1c35b10d837f80fc67939a46656ef1540"
   name = "github.com/ligato/cn-infra"
   packages = [
     "agent",
@@ -562,7 +562,15 @@
     "utils/safeclose",
   ]
   pruneopts = "T"
-  revision = "9bb0e395ce981f921420130be6d13a1582ed99f1"
+  revision = "61443bee9914521191283f41c8715c41aaaa47f4"
+
+[[projects]]
+  branch = "master"
+  digest = "1:7616dd8d9ddca4d4d8aa0e3793f66015c8c8bf9a3f2387be6be59347f43a75c0"
+  name = "github.com/logrusorgru/aurora.git"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "d694e6f975a9109e2b063829d563a7c153c4b53c"
 
 [[projects]]
   branch = "master"
